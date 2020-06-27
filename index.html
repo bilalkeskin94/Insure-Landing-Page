@@ -11,38 +11,44 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Insure landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <nav>
       <div class="container">
         <div class="flex">
-          <img src="./images/logo.svg" alt="logo" />
+          <div><img src="./images/logo.svg" alt="logo" /></div>
           <ul>
             <li><a href="#">HOW WE WORK</a></li>
             <li><a href="#">BLOG</a></li>
             <li><a href="#">ACCOUNT</a></li>
-            <li><a href="#" class="btn">WIEW PLANS</a></li>
+            <li><a href="#" class="btn btn-reverse">WIEW PLANS</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <header>
       <div class="container">
-        <div class="flex">
-          <h1>Humanizing your insurance.</h1>
-          <p>
-            Get your life insurance coverage easier and faster. We blend our
-            expertise and technology to help you find the plan that's right for
-            you. Ensure you and your loved ones are protected.
-          </p>
-          <button class="btn">VIEW PLANS</button>
-        </div>
-        <div>
-          <img src="./images/image-intro-desktop.jpg" alt="intro" />
+        <div class="flex align-start">
+          <div>
+            <h1>Humanizing your insurance.</h1>
+            <p>
+              Get your life insurance coverage easier and faster. We blend our
+              expertise and technology to help you find the plan that's right
+              for you. Ensure you and your loved ones are protected.
+            </p>
+
+            <button class="btn">VIEW PLANS</button>
+          </div>
+          <div>
+            <img
+              src="./images/image-intro-desktop.jpg"
+              alt="intro"
+              class="header-img"
+            />
+          </div>
         </div>
       </div>
     </header>
@@ -51,7 +57,7 @@
       <div class="flex">
         <div>
           <img src="./images/icon-snappy-process.svg" alt="snappy" />
-          <h4>Snappy Process</h4>
+          <h3>Snappy Process</h3>
           <p>
             Our application process can be completed in minutes,not hours.Don't
             get stuck filling in tedious forms.
@@ -59,7 +65,7 @@
         </div>
         <div>
           <img src="./images/icon-affordable-prices.svg" alt="prices" />
-          <h4>Affordable Prices</h4>
+          <h3>Affordable Prices</h3>
           <p>
             We don't want you worrying about high monthly costs.Our prices may
             be low,but we still offer the best coverage possible.
@@ -67,7 +73,7 @@
         </div>
         <div>
           <img src="./images/icon-people-first.svg" alt="people" />
-          <h4>People First</h4>
+          <h3>People First</h3>
           <p>
             Our plans aren't full of conditions and clauses to prevent
             payouts.We make sure you're covered when you need it.
@@ -116,7 +122,7 @@
         </div>
         <div class="flex">
           <div>
-            <h3>Our Company</h3>
+            <h4>Our Company</h4>
             <ul>
               <li><a href="#">HOW WE WORK</a></li>
               <li><a href="#">WHY INSURE</a></li>
@@ -125,7 +131,7 @@
             </ul>
           </div>
           <div>
-            <h3>HELP ME</h3>
+            <h4>HELP ME</h4>
             <ul>
               <li><a href="#">FAQ</a></li>
               <li><a href="#">TERMS OF USE</a></li>
@@ -134,7 +140,7 @@
             </ul>
           </div>
           <div>
-            <h3>CONTACT</h3>
+            <h4>CONTACT</h4>
             <ul>
               <li><a href="#">SALES</a></li>
               <li><a href="#">SUPPORT</a></li>
@@ -142,7 +148,7 @@
             </ul>
           </div>
           <div>
-            <h3>OTHERS</h3>
+            <h4>OTHERS</h4>
             <ul>
               <li><a href="#">CARREERS</a></li>
               <li><a href="#">PRESS</a></li>
